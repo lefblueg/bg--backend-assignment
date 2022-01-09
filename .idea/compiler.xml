@@ -20,6 +20,9 @@
         <module name="reviews.core.api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bank-account" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
