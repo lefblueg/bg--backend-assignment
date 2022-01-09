@@ -3,6 +3,13 @@ The app is under the backoffapi directory.
 The application starts from here: backoffapi/backoffice/src/main/java/com/marscolony/backoffice/BackofficeApplication.java
 
 Runs on MySql database, please create a new database called "mars" before running the project, the tables will be created automatically. 
+Just the application properties file according your db user and password. Now the values are:
+
+spring.datasource.url = jdbc:mysql://localhost:3306/mars
+
+spring.datasource.username=root
+
+spring.datasource.password=lefbluegr
 
 There is a postman collection to help with testing here: backoffapi/backoffice/postman
 
