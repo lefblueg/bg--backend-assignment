@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user.core" />
+        <module name="bankacc.core.api" />
+        <module name="user.oauth2.0" />
+        <module name="backoffice" />
+        <module name="user.query.api" />
+        <module name="user.cmd.api" />
+        <module name="bankacc.query.api" />
+        <module name="reviews.cmd.api" />
+        <module name="reviews.query.api" />
+        <module name="bankacc.cmd.api" />
+        <module name="reviews.core.api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gw" options="-parameters" />
+      <module name="backoffice" options="-parameters" />
+      <module name="bankacc.cmd.api" options="-parameters" />
+      <module name="bankacc.core.api" options="-parameters" />
+      <module name="bankacc.query.api" options="-parameters" />
+      <module name="mars-reviews" options="" />
+      <module name="reviews.cmd.api" options="-parameters" />
+      <module name="reviews.core.api" options="-parameters" />
+      <module name="reviews.query.api" options="-parameters" />
+      <module name="user.cmd.api" options="-parameters" />
+      <module name="user.core" options="-parameters" />
+      <module name="user.oauth2.0" options="-parameters" />
+      <module name="user.query.api" options="-parameters" />
+    </option>
+  </component>
+</project>
